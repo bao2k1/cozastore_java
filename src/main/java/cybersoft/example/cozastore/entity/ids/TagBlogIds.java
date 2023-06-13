@@ -1,7 +1,6 @@
 package cybersoft.example.cozastore.entity.ids;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Embeddable;
+import javax.persistence.*;
 
 import java.io.Serializable;
 

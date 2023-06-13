@@ -1,8 +1,7 @@
 package cybersoft.example.cozastore.entity;
 
 import cybersoft.example.cozastore.entity.ids.OrderDetailIds;
-import jakarta.persistence.*;
-
+import javax.persistence.*;
 
 @Entity(name = "order_detail")
 public class OrderDetailEntity {

@@ -1,6 +1,6 @@
 package cybersoft.example.cozastore.entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 import java.util.Date;
 

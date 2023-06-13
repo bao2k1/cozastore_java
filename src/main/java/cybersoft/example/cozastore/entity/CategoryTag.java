@@ -1,7 +1,7 @@
 package cybersoft.example.cozastore.entity;
 
 import cybersoft.example.cozastore.entity.ids.CategoryTagIds;
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 import java.util.Set;
 
