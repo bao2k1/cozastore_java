@@ -1,6 +1,7 @@
 package cybersoft.example.cozastore.service;
 
 import cybersoft.example.cozastore.entity.UserEntity;
+import cybersoft.example.cozastore.exception.CustomException;
 import cybersoft.example.cozastore.payload.request.SignupRequest;
 import cybersoft.example.cozastore.repository.UserRepository;
 import cybersoft.example.cozastore.service.imp.UserServiceImp;
@@ -26,7 +27,7 @@ public class UserService implements UserServiceImp {
             isSuccess=true;
         }catch (Exception e)
         {
-
+            throw new CustomException("Loi them User"+e.getMessage());
         }
 return isSuccess;
     }
